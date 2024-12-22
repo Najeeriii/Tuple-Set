@@ -1,0 +1,8 @@
+t1=()
+t2=(1,2,3,4,5)
+print(t2)
+t3=tuple([3,2,4,5])
+t3=(t2+t3)
+print(t3)
+print(t3[4])
+print(t3[0:3])

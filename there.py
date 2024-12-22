@@ -1,0 +1,10 @@
+ti={1,2,3,4,5,6,7}
+print(ti)
+t2={11,22,33,4,5,6,73}
+print(ti.union(t2))
+print(ti.intersection(t2))
+print(ti.symmetric_difference(t2))
+print(ti.difference(t2))
+print(t2.difference(ti))
+ti.add(100)
+print(ti)
